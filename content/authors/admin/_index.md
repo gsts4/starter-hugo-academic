@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Garrett Seepersad
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Garrett
+last_name: Seepersad
 
 # Status emoji
 status:
@@ -14,34 +14,37 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: GNSS Measurement Processing Specialist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: TuSimple
+    url: https://www.tusimple.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: In pursuit of knowledge to enable high precision positioning at a significantly lower cost.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - GNSS positioning
+  - u-blox F9
+  - arduino
+  - R
+  - python
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: PhD in Earth and Space Science
+      institution: York University, Canada
+      year: 2018
+    - course: MEng in Earth and Space Science
+      institution: York University, Canada
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: BSc in Geomatics Engineering
+      institution: University of West Indies, Trinidad and Tobago
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -53,19 +56,19 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/gseepersad
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?hl=en&authuser=3&user=N44NW_gAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/garrettseepersad
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/gseepersad/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -74,11 +77,13 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'garrett@seepersad.org'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Metre-level Global Navigation Satellite Systems (GNSS) positioning surrounds us all on a daily basis but for decades high accuracy centimetre-level positioning has been inaccessible to the mass market due to the relatively high hardware cost. My current focus is in the pursuit of knowledge to enable high precision positioning at a significantly lower cost.
+
+My PhD research centered about the use of GNSSs for a multitude of precise positioning and navigation applications. Specific areas of application includes GNSS surveying and UAV navigation. My research required development of positioning algorithms, which include filters, functional, stochastic and predictive models to mitigate physical effects.
 {style="text-align: justify;"}
