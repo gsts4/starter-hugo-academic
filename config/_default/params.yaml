@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'GNSS Measurement Processing Specialist (PPP, RTK)'
+    twitter: 'gseepersad'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,10 +32,10 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
-    show_logo: true
+    align: r
+    show_logo: false
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: true
 
@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Garrett Seepersad.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
