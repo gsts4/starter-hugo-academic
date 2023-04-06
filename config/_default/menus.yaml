@@ -19,9 +19,9 @@ main:
 #    url: "reports/"
 #    weight: 30
 
-#  - name: Utilities_TODO
-#    url: 'utilities/r/'
-#    weight: 40
+  - name: Utilities
+    url: 'utilities/r/'
+    weight: 40
 
   - name: Publications
     url: 'publication/'
