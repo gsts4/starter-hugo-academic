@@ -12,8 +12,11 @@ main:
     url: "post/"
     weight: 20
 
-#  - name: Thesis_Report_TODO
-#    url: 'thesis/'
+  - name: Reports
+    url: "reports/"
+    weight: 30
+
+#    url: "reports/"
 #    weight: 30
 
 #  - name: Utilities_TODO
