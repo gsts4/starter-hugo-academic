@@ -20,7 +20,7 @@ main:
 #    weight: 30
 
   - name: Utilities
-    url: 'utilities/r/'
+    url: 'utilities/'
     weight: 40
 
   - name: Publications
