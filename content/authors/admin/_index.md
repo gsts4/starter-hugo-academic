@@ -14,15 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: GNSS Measurement Processing Specialist
+role: GNSS Measurement Processing Specialist <br>(aka PPP and RTK processing)
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: TuSimple
-    url: https://www.tusimple.com/
+# organizations:
+#   - name: TuSimple
+#     url: https://www.tusimple.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: In pursuit of knowledge to enable high precision positioning at a significantly lower cost.
+bio: Enabling high precision positioning at a significantly lower cost.
 
 # Interests to show in About widget
 interests:
@@ -72,9 +72,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'garrett@seepersad.org'
@@ -83,5 +83,5 @@ email: 'garrett@seepersad.org'
 highlight_name: true
 ---
 
-Metre-level Global Navigation Satellite Systems (GNSS) positioning surrounds us all on a daily basis but for decades high accuracy centimetre-level positioning has been inaccessible to the mass market due to the relatively high hardware cost. My current focus is in the pursuit of knowledge to enable high precision positioning at a significantly lower cost.
+metre-level Global Navigation Satellite Systems (GNSS) positioning surrounds us all on a daily basis but for decades high accuracy centimetre-level positioning has been inaccessible to the mass market due to the relatively high hardware cost. My current focus is working on projects that enable high precision positioning at a significantly lower cost.
 {style="text-align: justify;"}
