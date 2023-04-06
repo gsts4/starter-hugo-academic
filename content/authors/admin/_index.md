@@ -84,6 +84,4 @@ highlight_name: true
 ---
 
 Metre-level Global Navigation Satellite Systems (GNSS) positioning surrounds us all on a daily basis but for decades high accuracy centimetre-level positioning has been inaccessible to the mass market due to the relatively high hardware cost. My current focus is in the pursuit of knowledge to enable high precision positioning at a significantly lower cost.
-
-My PhD research centered about the use of GNSSs for a multitude of precise positioning and navigation applications. Specific areas of application includes GNSS surveying and UAV navigation. My research required development of positioning algorithms, which include filters, functional, stochastic and predictive models to mitigate physical effects.
 {style="text-align: justify;"}
