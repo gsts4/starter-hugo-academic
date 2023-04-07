@@ -23,4 +23,4 @@
 # Redirect blog to posts
 [[redirects]]
   from = "/blog/"
-  to = "/posts/"
+  to = "/post/"

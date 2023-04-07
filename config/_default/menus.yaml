@@ -16,8 +16,9 @@ main:
     url: "reports/"
     weight: 30
 
-#    url: "reports/"
-#    weight: 30
+  - name: Projects
+    url: "project/"
+    weight: 30
 
   - name: Utilities
     url: 'utilities/'
