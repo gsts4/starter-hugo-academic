@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Enabling access to affordable high precision positioning.
+role: Enabling access to affordable high precision positioning and navigation.
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -22,7 +22,7 @@ role: Enabling access to affordable high precision positioning.
 #     url: https://www.tusimple.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Enabling access to affordable high precision positioning.
+bio: GNSS measurement processing specialist (aka PPP and RTK positioning).
 
 # Interests to show in About widget
 interests:
