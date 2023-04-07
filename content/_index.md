@@ -12,63 +12,63 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Navigation Software Design Engineer
-          company: u-blox
-          company_url: 'https://www.u-blox.com/'
-          company_logo: org-gc
-          location: Zürich
-          date_start: '2017-11-01'
-          date_end: '2020-09-01'
-          description: |2-
-              Responsibilities include:
+  # - block: experience
+  #   content:
+  #     title: Experience
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Experiences.
+  #     #   Add/remove as many `experience` items below as you like.
+  #     #   Required fields are `title`, `company`, and `date_start`.
+  #     #   Leave `date_end` empty if it's your current employer.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - title: Navigation Software Design Engineer
+  #         company: u-blox
+  #         company_url: 'https://www.u-blox.com/'
+  #         company_logo: org-gc
+  #         location: Zürich
+  #         date_start: '2017-11-01'
+  #         date_end: '2020-09-01'
+  #         description: |2-
+  #             Responsibilities include:
 
-              * Feature implementation
-              * Testing and verification for product release
-              * Feasibility studies
+  #             * Feature implementation
+  #             * Testing and verification for product release
+  #             * Feasibility studies
 
-        - title: Geodetic
-          company: Natural Resource Canada
-          company_url: 'https://www.nrcan.gc.ca/home'
-          company_logo: org-x
-          location: Ottawa
-          date_start: '2016-01-01'
-          date_end: '2016-12-31'
-          description: |2-
-              Development of a utility that combined multiple satellite products which improved the reliability of ambiguity resolution with a single GNSS receiver.
-              Responsibilities include:
+  #       - title: Geodetic
+  #         company: Natural Resource Canada
+  #         company_url: 'https://www.nrcan.gc.ca/home'
+  #         company_logo: org-x
+  #         location: Ottawa
+  #         date_start: '2016-01-01'
+  #         date_end: '2016-12-31'
+  #         description: |2-
+  #             Development of a utility that combined multiple satellite products which improved the reliability of ambiguity resolution with a single GNSS receiver.
+  #             Responsibilities include:
 
-              * Review of the different PPP products available
-              * Develop a utility to combine multiple satellite products focused  on real time applications
-              * Test and validate generated products
+  #             * Review of the different PPP products available
+  #             * Develop a utility to combine multiple satellite products focused  on real time applications
+  #             * Test and validate generated products
 
-        - title: GNSS Specialist
-          company: Sheqtrak
-          company_url: 'https://www.protanks.eu'
-          company_logo: org-x
-          location: Netherlands
-          date_start: '2015-11-01'
-          date_end: '2016-11-01'
-          description: |2-
-              Worked with SheqTrack, to develop a GNSS-based safety system for maintenance workers in their secure area at the Rotterdan World Gateway (RWG)
-              Tasks include:
+  #       - title: GNSS Specialist
+  #         company: Sheqtrak
+  #         company_url: 'https://www.protanks.eu'
+  #         company_logo: org-x
+  #         location: Netherlands
+  #         date_start: '2015-11-01'
+  #         date_end: '2016-11-01'
+  #         description: |2-
+  #             Worked with SheqTrack, to develop a GNSS-based safety system for maintenance workers in their secure area at the Rotterdan World Gateway (RWG)
+  #             Tasks include:
 
-              * Cost benefit analysis of different GNSS hardware​
-              * Cost benefit analysis of different Inertial Navigation Systems (INS)
-              * Test different GNSS hardware configurations (radio link, IP, satellite L-band) and processing methods (PPP & RTK)
-    design:
-      columns: '2'
+  #             * Cost benefit analysis of different GNSS hardware​
+  #             * Cost benefit analysis of different Inertial Navigation Systems (INS)
+  #             * Test different GNSS hardware configurations (radio link, IP, satellite L-band) and processing methods (PPP & RTK)
+  #   design:
+  #     columns: '2'
 
   # - block: accomplishments
   #   content:
@@ -183,20 +183,21 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
+  - block: collection
+    content:
+      title: Recent blog posts
+      # text: |-
+      #   {{% callout note %}}
+      #   Quickly discover relevant content by [filtering publications](./publication/).
+      #   {{% /callout %}}
+      filters:
+        folders:
+          - post
+        exclude_featured: true
+    design:
+      columns: '2'
+      # view: citation
+
   # - block: collection
   #   id: talks
   #   content:

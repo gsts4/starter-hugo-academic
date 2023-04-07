@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: GNSS Measurement Processing Specialist <br>(aka PPP and RTK processing)
+role: Enabling access to affordable high precision positioning.
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -22,7 +22,7 @@ role: GNSS Measurement Processing Specialist <br>(aka PPP and RTK processing)
 #     url: https://www.tusimple.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Enabling high precision positioning at a significantly lower cost.
+bio: Enabling access to affordable high precision positioning.
 
 # Interests to show in About widget
 interests:
@@ -83,5 +83,5 @@ email: 'garrett@seepersad.org'
 highlight_name: true
 ---
 
-metre-level Global Navigation Satellite Systems (GNSS) positioning surrounds us all on a daily basis but for decades high accuracy centimetre-level positioning has been inaccessible to the mass market due to the relatively high hardware cost. My current focus is working on projects that enable high precision positioning at a significantly lower cost.
+<!-- Enabling access affordable to high precision positioning -->
 {style="text-align: justify;"}
