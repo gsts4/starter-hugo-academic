@@ -4,56 +4,56 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: Home🏠
     url: '#about'
     weight: 10
 
-  - name: Blog
+  - name: Blog📝
     url: "post/"
     weight: 20
 
-  - name: Reports
+  - name: Reports📚
     url: "reports/"
     weight: 30
 
-  - name: Projects
-    url: "project/"
+  - name: Scratch Pad📓
+    url: "scratch_pad/"
     weight: 30
 
-  - name: Utilities
+  - name: Utilities🧰
     url: 'utilities/'
     weight: 40
 
-  - name: Publications
+  - name: Publications📃
     url: 'publication/'
     weight: 50
     identifier : "publication"
 
-  - name: Conference Papers
-    url: 'publication/#1'
-    parent : "publication"
+  # - name: Conference Papers
+  #   url: 'publication/#1'
+  #   parent : "publication"
 
-  - name: Web Articles
-    url: 'publication/#10'
-    parent : "publication"
+  # - name: Web Articles
+  #   url: 'publication/#10'
+  #   parent : "publication"
 
-  - name: Journal Article
-    url: 'publication/#2'
-    parent : "publication"
+  # - name: Journal Article
+  #   url: 'publication/#2'
+  #   parent : "publication"
 
-  - name: Report
-    url: 'publication/#4'
-    parent : "publication"
+  # - name: Report
+  #   url: 'publication/#4'
+  #   parent : "publication"
 
-  - name: Thesis
-    url: 'publication/#7'
-    parent : "publication"
+  # - name: Thesis
+  #   url: 'publication/#7'
+  #   parent : "publication"
 
-  - name: Poster
-    url: 'publication/#9'
-    parent : "publication"
+  # - name: Poster
+  #   url: 'publication/#9'
+  #   parent : "publication"
 
-  - name: Contact
+  - name: Contact📞
     url: '#contact'
     weight: 60
 
