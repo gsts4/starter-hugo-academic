@@ -62,7 +62,7 @@ locale:
 features:
   syntax_highlighter:
     theme_light: github-light
-    theme_dark: github-light
+    theme_dark: github-dark
     # Recommend similar content to your readers at the end of pages.
   show_related:
     enable: true
