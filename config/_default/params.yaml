@@ -35,7 +35,7 @@ header:
     align: r
     show_logo: false
     show_language: false
-    show_day_night: false
+    show_day_night: true
     show_search: true
     highlight_active_link: true
 
@@ -63,12 +63,18 @@ features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: github-light
+    # Recommend similar content to your readers at the end of pages.
+  show_related:
+    enable: true
+  feedback:
+    enable: false
   math:
     enable: false
   privacy_pack:
     enable: false
+    # Link to let users suggest improvements to pages.
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/garrettseepersad/starter-hugo-academic'
     content_dir: content
     branch: main
   avatar:
