@@ -82,10 +82,10 @@ features:
     commento:
       url: ''
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'garrettseepersad/starter-hugo-academic'
+      repo_id: 'R_kgDOJTPyFw'
+      category: 'General'
+      category_id: 'DIC_kwDOJTPyF84CVoFr'
   search:
     provider: wowchemy
     algolia:
