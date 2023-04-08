@@ -62,7 +62,7 @@ locale:
 features:
   syntax_highlighter:
     theme_light: github-light
-    theme_dark: dracula
+    theme_dark: github-light
   math:
     enable: false
   privacy_pack:
@@ -75,7 +75,7 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'giscus'
     disqus:
       shortname: ''
       show_count: true
@@ -86,6 +86,7 @@ features:
       repo_id: 'R_kgDOJTPyFw'
       category: 'General'
       category_id: 'DIC_kwDOJTPyF84CVoFr'
+      data-theme: 'light'
   search:
     provider: wowchemy
     algolia:
