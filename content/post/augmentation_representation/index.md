@@ -5,7 +5,7 @@ math: false
 subtitle:
 summary:
 # featured: true
-draft: true
+draft: false
 authors:
 - admin
 categories: []
