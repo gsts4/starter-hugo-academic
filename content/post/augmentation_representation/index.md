@@ -4,7 +4,7 @@ date: 2023-04-08
 math: false
 subtitle:
 summary:
-# featured: true
+featured: true
 draft: false
 authors:
 - admin
