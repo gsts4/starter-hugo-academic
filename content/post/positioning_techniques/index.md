@@ -18,7 +18,7 @@ tags:
   - PPP-AR
   - PPP-RTK
   - High Precision Positioning
-  - Hight Precision GNSS
+  - High Precision GNSS
   - HPP
   - HPG
 image:
