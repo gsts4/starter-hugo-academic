@@ -5,6 +5,9 @@ toc: false
 type: book
 date: "2018-09-09T00:00:00Z"
 weight: 1
+tags:
+  - STR2STR
+  - Command line interface
 ---
 
 Input data from a stream and divide and output them to multiple streams. The input stream can be serial,
