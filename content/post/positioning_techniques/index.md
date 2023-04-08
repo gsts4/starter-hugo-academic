@@ -24,6 +24,7 @@ tags:
 image:
   placement: 1
   # caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+  caption: 'Midjourney: GPS measurement pseudorange carrierphase position'
 commentable: true
 ---
 
