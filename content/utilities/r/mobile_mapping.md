@@ -13,5 +13,6 @@ menu:
 weight: 7
 ---
 
+{{< mobile_mapping >}}
 
 ##

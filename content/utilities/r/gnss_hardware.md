@@ -13,5 +13,6 @@ menu:
 weight: 6
 ---
 
+{{< gnss_hardware >}}
 
 ##

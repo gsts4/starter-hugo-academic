@@ -32,3 +32,4 @@ Depending on user feedback, I am considering:
 1.  Expanding the database from engineering grade receivers to lower accuracy receivers
 2.  Creating a form which would allow users to submit receivers directly to the database
 
+{{< gnss_hardware >}}

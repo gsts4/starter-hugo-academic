@@ -13,5 +13,6 @@ menu:
 weight: 4
 ---
 
+{{< st_lucia_farmers >}}
 
 ##

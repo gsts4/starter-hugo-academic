@@ -25,5 +25,6 @@ image:
 projects: []
 ---
 
-Paramters for each of the GNSS
+Parameters for each of the GNSS
 
+{{< gnss_paramters >}}
