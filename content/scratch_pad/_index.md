@@ -13,4 +13,6 @@ toc: false  # Show table of contents? true/false
 type: book  # Do not modify.
 ---
 
-A notebook to keep track of my explorations
+A notebook to keep track of my explorations...
+
+*On mobile devices you will need to click the secondary menu.*
