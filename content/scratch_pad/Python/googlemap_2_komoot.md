@@ -1,7 +1,7 @@
 ---
 linktitle: googlemap_2_komoot
 type: book # Do not modify.
-toc: false
+toc: true
 weight : 1
 
 title: Exporting cycle paths from Google Maps and uploading to Komoot
@@ -9,7 +9,6 @@ subtitle:
 summary: ""
 date: 2023-04-08
 draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
 type: book  # Do not modify.
 authors:
 - admin
@@ -27,16 +26,16 @@ commentable: true
 
 As a recreational cyclist, I've used Google Maps over the years. While acceptable, it does have a habit of sending me on streets only designed for vehicles. Out of desperation, I began exploring different apps and settled on [komoot](https://www.komoot.com/user/3259828117697). After a few months of using it, I've had no complaints, but I really wanted to have my historical data from Google Maps within the Komoot ecosystem. Also, this allowed me to have some fun with Python.
 
-**Step 1. Use Google Takeout to download Location History**
+## Step 1. Use Google Takeout to download Location History
 
 Google Takeout allows you to load all data from your Google Account as a file. It includes your emails, photos, videos, etc. Location history is also available for download as a ZIP file.
 To get it go to https://takeout.google.com/settings/takeout , check “Location History” and click on the “Next step” button.
 
-**Step 2. Upload location history to Komoot**
+## Step 2. Upload location history to Komoot
 
 The task was relatively simple as there was a friendly Python Interface for Komoot API called [komPYoot](https://pypi.org/project/komPYoot/1.0.0/). While iterating through the data, I extracted segments where the activity type matched `CYCLING` and I merged all cycling activities that occured within a day.
 
-**Code**
+## Code
 
 GIST link : [googlemap_2_komoot.py](https://gist.github.com/garrettseepersad/d8d5cfebff7371985eb4f0e32f2de35c)
 {{< highlight python>}}
