@@ -2,7 +2,7 @@
 linktitle: googlemap_2_komoot
 type: book # Do not modify.
 toc: true
-weight : 1
+weight : 2
 
 title: Exporting cycle paths from Google Maps and uploading to Komoot
 subtitle:

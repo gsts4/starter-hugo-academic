@@ -8,6 +8,3 @@ weight: 3
 tags: []
 ---
 
-Search array for index
-
-array_index = array.index(value)
