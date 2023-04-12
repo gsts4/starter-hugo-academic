@@ -66,7 +66,8 @@ features:
     # Recommend similar content to your readers at the end of pages.
   show_related:
     enable: true
-  feedback: false
+  feedback:
+    enable: false
   math:
     enable: false
   privacy_pack:
