@@ -29,7 +29,7 @@ curl -O ftp://gssc.esa.int/gnss/data/daily/2021/brdc/brdc3430.21n.gz
 ```
 
 ### Others
-- https://cddis.gsfc.nasa.gov/archive/gnss/products/
+- https://cddis.gsfc.nasa.gov/archive/gnss/products/ / https://cddis.nasa.gov/Data_and_Derived_Products/GNSS/broadcast_ephemeris_data.html
 - ftp://igs.ensg.ign.fr/pub/igs/products/
 - ftp://gssc.esa.int/gnss/products/
 - ftp://lox.ucsd.edu/pub/products/
