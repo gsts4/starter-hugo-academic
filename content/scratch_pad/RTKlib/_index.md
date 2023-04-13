@@ -12,7 +12,20 @@ tags:
   - STR2STR
 ---
 
-RTKLIB includes a few different commandline user interfaces which include :
+Recommended repo that's maintained by RTKlib Explorer
+
+```
+git clone git@github.com:rtklibexplorer/RTKLIB.git
+```
+
+Compile IERS files
+
+```
+cd /lib/iers/gcc
+make
+```
+
+RTKLIB includes a few different command line user interfaces which include :
 1. RTKRCV - Real‐time Positioning
 1. RNX2RTKP - Post‐Processing Analysis
 1. CONVBIN - RINEX Converter of receiver raw data
