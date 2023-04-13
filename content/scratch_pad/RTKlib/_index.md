@@ -18,11 +18,10 @@ Recommended repo that's maintained by RTKlib Explorer
 git clone git@github.com:rtklibexplorer/RTKLIB.git
 ```
 
-Compile IERS files
+Prerequisite
 
 ```
-cd /lib/iers/gcc
-make
+apt-get install -y unzip gfortran
 ```
 
 RTKLIB includes a few different command line user interfaces which include :
