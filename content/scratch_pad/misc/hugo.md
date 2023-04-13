@@ -9,9 +9,12 @@ tags:
   - Hugo
 ---
 
-Running Hugo as a local server with WSL
+## Running Hugo as a local server with WSL
+
+For some reason, zsh is unhappy with brew + hugo and I don't have the time to understand why. Following works smoothly.
 
 ```
+/bin/bash
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
 test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 test -r ~/.profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
