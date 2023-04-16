@@ -4,7 +4,7 @@ date: 2023-04-13
 math: false
 subtitle:
 summary: "If we were to focus on the High Precision Positioning (HPP), the techniques (N)RTK, PPP-AR/PPP-RTK and PPP are brought into the spotlight. In (N)RTK, one single lump sum correction is transmitted in the observation domain where as with PPP-related approaches the corrections are transmitted in multiple components in the state space domain."
-featured: true
+featured: false
 draft: false
 authors:
 - admin
