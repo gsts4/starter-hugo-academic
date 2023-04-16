@@ -16,5 +16,5 @@ image:
 commentable: true
 ---
 
-![coming soon](./G123_continuously_loading_b10ec85f-a834-41a9-b887-4a17a768c39e.png)
+![coming soon](/post/augmentation_representation/G123_continuously_loading_b10ec85f-a834-41a9-b887-4a17a768c39e.png)
 
