@@ -16,14 +16,14 @@ image:
 commentable: true
 ---
 
-In the last blog post, we looked at the different [GNSS positioning techniques](/post/positioning_techniques/) with a special focus on accuracy, baseline length and convergence time. If we were to focus on the High Precision Positioning (HPP), the techniques (N)RTK, PPP-AR/PPP-RTK and PPP are brought into the spotlight. As we can see in [Figure 1](#hpp), the core difference centers around what correction information is transmitted to the GNSS receiver.
+In the last blog post, we looked at the different [GNSS positioning techniques](/post/positioning_techniques/) with a special focus on the metrics accuracy, baseline length and convergence time. If we were to focus on the High Precision Positioning (HPP), the techniques (N)RTK, PPP-AR/PPP-RTK and PPP are brought into the spotlight. As we can see in [Figure 1](#hpp), the core difference centers around what correction information is transmitted to the GNSS receiver.
 
 In (N)RTK, one single lump sum correction is transmitted in the observation domain where as with PPP-related approaches the corrections are transmitted in multiple components in the state space domain. The different domains in which the corrections represent motivated it's naming, Observation Space Representation (OSR) and, State Space Representation (SSR). The primary differences between the techniques and correction representation relates to initialization time, infrastructure requirements and accuracy.
 
 ![hpp](./hpp.png)
 *Figure 1: High Precision Positioning techniques.*
 
-The OSR provides a single compound ranging correction as observed in a nearby (real or virtual) reference station, while in the SSR method, the various error sources are estimated separately by a network of Continuously Operating Reference Stations (CORS) before being sent to the receiver. The requirements of a nearby station in OSR and decorrelation of the error sources in SSR defines the communication channel requirements. In [Figure 2](#ors_vs_ssr), we can appreciate the difference in communication channels possible with SSR in contrast to OSR formatted corrections. With OSR corrections, a two-way communication channel is required to determine the nearest station where as SSR facilitates a one-way dissemination. Another strength of SSR formatted corrections is a significant reduction in bandwidth as corrections are transmitted at a physically meaningful data rate.
+The OSR provides a single compound ranging correction as observed in a nearby (real or virtual) reference station, while in the SSR method, the various error sources are estimated separately by a network of Continuously Operating Reference Stations (CORS) before being sent to the receiver. The requirements of a nearby station in OSR and decorrelation of the error sources in SSR defines the communication channel requirements. In [Figure 2](#ors_vs_ssr), we can appreciate the differences in communication channels possible with SSR in contrast to OSR formatted corrections. With OSR corrections, a two-way communication channel is required to determine the nearest station where as SSR facilitates a one-way dissemination. Another strength of SSR formatted corrections is a significant reduction in bandwidth as corrections are transmitted at a physically meaningful data rate.
 
 ![ors_vs_ssr](./ors_vs_ssr.png)
 
