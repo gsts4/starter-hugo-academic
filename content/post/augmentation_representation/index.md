@@ -33,7 +33,7 @@ In both long-baseline RTK and PPP processing, it's important to enable (residual
 
 The PPP-AR/PPP-RTK method combines elements from both methods (PPP and RTK) thereby providing a scalable accuracy to all user segments. As SSR corrections have significantly reduced operational cost, this has reshaped the possibilities of mass market high-precision positioning. The emergence of high-accuracy mass market applications shows a strong potential for widespread utilisation of PPP-AR/PPP-RTK.
 
-In our next blog post, we'll examine if RTK is still relevant in a world dominated by NRTK, PPP-AR/PPP-RTK and PPP.
+In our next blog post, [we'll examine if RTK is still relevant in a world dominated by NRTK, PPP-AR/PPP-RTK and PPP](/post/why_rtk/).
 
 <!-- ![coming soon](./G123_continuously_loading_b10ec85f-a834-41a9-b887-4a17a768c39e.png) -->
 
