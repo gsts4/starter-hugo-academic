@@ -1,5 +1,5 @@
 ---
-title: GNSS Correction Formats
+title: GNSS Correction Representations
 date: 2023-04-13
 math: false
 subtitle:
