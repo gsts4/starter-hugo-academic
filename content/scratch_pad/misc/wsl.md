@@ -73,3 +73,15 @@ sudoapt-get-y installgdb
 ```
 sudo apt-get install mlocate
 ```
+
+## Keep process running
+
+Add command
+```
+nohup long-running-command &
+```
+
+List processes using nohup
+```
+jobs -l
+```
